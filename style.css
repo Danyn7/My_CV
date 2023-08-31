@@ -469,3 +469,27 @@ a {
     gap: 5px;
   }
 }
+
+@media (max-width: 475px) {
+  .container__page {
+    flex-direction: column;
+  }
+
+  .container__page__left {
+    width: 100%;
+    align-items: center;
+  }
+
+  .container__page__right {
+    width: 100%;
+  }
+
+  .container {
+    justify-content: normal;
+    
+  }
+
+  .container__all {
+    width: 90%;
+  }
+}
